@@ -72,6 +72,52 @@ class EaaSMasterMCP {
     print('MCP -> sending unknown waste type to Delphi AI: Geom=$geom, Vel=$vel');
     _actuatorController.add('TRIGGER_DELPHI_LOG');
   }
+  /// Sending system objects to Delphi AI 
+  void _sendToDelphiKnowledgeBase(int geom, int vel, int delta) {
+    print('MCP -> text generation for Delphi AI Prompt..');
+    
+    // Crawling data from FPGA Hardware and Prolog logic driver
+    String promptForDelphi = _generateDelphiPrompt(
+      geomCode: geom,
+      velocity: vel,
+      deltaArea: delta,
+    );
+
+    // Output text, you can paste it to Delphi AI directly 
+    print('=================== PROMPT FOR DELPHI ACTIONS ===================');
+    print(promptForDelphi);
+    print('=================================================================');
+
+    // The invocation of other system classes
+    _actuatorController.add('TRIGGER_DELPHI_LOG');
+  }
+
+  /// toString
+  String _generateDelphiPrompt({required int geomCode, required int velocity, required int deltaArea}) {
+    final DateTime now = DateTime.now();
+    
+    return '''
+System: the classification error (Ecology as a Service).
+Time: ${now.toIsoServerYearMonthDay()} ${now.toIsoServerHourMinuteSecond()}
+
+Architecture:
+- Hardware: smart wastebin or robot with trashbox  (FPGA, finite automata).
+- Logical driver: prolog knowledge base  (/prologWasteKB/main.pro).
+- Prolog program returned: [unknown_target -> log_to_delphi_ai]. 
+
+IN vector of features (data from Camera with  OpenCV and JK-trigger summatorz):
+1. Geometry contour code (GeomCode): $geomCode
+2. Velocity of centroid shift (Velocity): $velocity ед/кадр
+3. The difference of delta volume of the area (DeltaArea): $deltaArea (dynamic of deformation)
+
+Expert of Delphi AI do the following:
+Based on the project structure and vector of features (for example, new type of multilayer paper cover , TetrapakTM or destroyed pieces of waste paper). 
+Write the recommendation:
+1. Which new logical predicate will help to determine that unknown type of waste?
+2. Do we need to reconfigure comparator of FPGA Hardware to improve the precision of trashbin full indication?
+''';
+  }
+  
 
   void dispose() {
     _prologProcess?.kill();
