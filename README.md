@@ -1,11 +1,11 @@
 # WasteMap
 
-No available for Public. NDA
+
 An ecology, sustainability app, written on Flutter.
 
 ## GreenCode Bootcamp 2023
 
-GreenCode Bootcamp 2023 winner, this app is a ecological, sustainable product, help people achieve their goals for garbage recycling
+GreenCode Bootcamp 2023 participant, this app is a ecological, sustainable product, help people achieve their goals for garbage recycling
 
 App contains 4 screens:
 
@@ -16,29 +16,19 @@ Map - interactive map where user can set a geotag of chaotic garbage dump, and c
 
 App was built with flutter, so, this is crossplatform solution. firebase FireStore integrated.
 Fully opensource .
-YouTube demo:
-https://www.youtube.com/watch?v=xufgySC51X4
+YouTube demo: (old, previous)
+https://www.youtube.com/watch?v=xufgySC51X4 
+
+## Ecology as a Service (EaaS).
+### since almost 4 years later we are proudly introducing
+Abstract:
+
+The project WASTEMAP features wise consumption of waste, by using modern technical and social approaches.
+It solves the problem of the appearance of chaotic rubbish landfills, or in water, which negatively impacts the surrounding environment. 
+The goal of the project is to create a Delphi AI Knowledge base that enables both Government, people (consumers) and ecological NGO, activists, employees to work in Teams, finding new ways of refurbishing waste types: plastic, aluminium, glass.
+Reference list:
+
+Khushboo, Kajal, Subham Preetam, Sanchita Singha, & Narendra Kumar (2024). The world of plastic waste: A review. Cleaner Materials, 11, 100222. doi.org
+Van Quy Khuc, Ngoc Duc Doan, Ha Nguyen Thi Vinh,Dataset on households perceptions, waste sorting and contributions for improved domestic waste management in Vietnam: An application of Culture Tower and CVM,Data in Brief,2026,113286,ISSN 2352-3409,https://doi.org/10.1016/j.dib.2026.113286. (https://www.sciencedirect.com/science/article/pii/S2352340926008322)
 
 
-## Running
-
-clone repo and in your cmd:
-
-flutter run
-
-make sure that you install firebase cli, flutter sdk and android studio,dart.
-
-Not starting? Try this:
-
-1. flutter doctor -v : provide info about error in your solutions.
-
-2. Update dart packages, check outdated packages in pubspec.yaml, delete uncompatible packages.
-
-Enjoy!
-Thursday, March 5, 2026 8:24:20 AM
-ВОТ ВАМ FOR MEMORY ЧТОБЫ ПОТОМ МНЕ В ПУТЕШЕСТВИЯХ НЕ ХНЫКАЛИ И НЕ ТОПАЛИ !!!!!
-"ЭТО МОЙ ПРОЕКТ БЛА БЛА БЛА" ДА МНЕ ПОФИГ 
-ЧЕСТНО НАДО БЫТЬ ХОТЯ БЫ РАЗ!
-ПОЧЕМУ НЕ СМОГЛИЙ ПРИЙТИ???? СЛУЧИЛОСЬ? И ВООБЩЕ НА КОНФЕРЕНЦИИ ВЕЛИ СЕБЯ В ЦЕЛОМ БЕЗОБРАЗНО, ОСКВЕРНИЛИ ПОЛНОСТЬЮ НЕДЕЕСПОСОБНОГО ЧЕЛОВЕКА В КОНЦЕ КОНФЕРЕНЦИИ
-Ладно? Samah то к ней вопросов нет! А вот COLE WYMAN С ТОБОЙ ЕЩЕ ПОКВИТАЕМСЯ
-И ОСИН! НЕ ВОНЯТЬ МННЕ! 
