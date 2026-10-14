@@ -39,5 +39,15 @@ Pages 3221-3226,
 ISSN 2214-7853,
 https://doi.org/10.1016/j.matpr.2021.06.437.
 (https://www.sciencedirect.com/science/article/pii/S2214785321048318)
-Abstract: One of the fast-growing areas of deep learning using artificial intelligence is computer vision, becoming increasingly popular. It is a growing field of research that seeks to create techniques to help computers вЂњseeвЂќ and recognize the information of digital images for instance videos and photographs. Object detection is a computer vision method that enables us to recognize objects in an image or video and locate them. This article describes an efficient shape-based object identification method and its displacement in real-time using OpenCV library of programming roles mostly targeted at computer vision and Raspberry Pi with camera module.
+Abstract: One of the fast-growing areas of deep learning using artificial intelligence is computer vision, becoming increasingly popular. It is a growing field of research that seeks to create techniques to help computers вЂњseeвЂќ and recognize the information of digital images for instance videos and photographs. Object detection is a computer vision method that enables us to recognize objects in an image or video and locate them. This article describes an efficient shape-based object identification method and its displacement in real-time using OpenCV library of programming roles mo
+stly targeted at computer vision and Raspberry Pi with camera module.
 Keywords: OpenCV; Position; Object detection; Displacement; Automation
+### 😀🥹😱😰 First RESULTS (simulated)
+<img width="720" height="1604" alt="2353" src="https://github.com/user-attachments/assets/3235c073-3c47-4961-b349-075f9d4813bf" />
+<img width="720" height="1604" alt="2352" src="https://github.com/user-attachments/assets/69819dae-9f08-4111-9796-4baba01ec7e6" />
+<img width="720" height="1604" alt="2351" src="https://github.com/user-attachments/assets/400153d5-193d-4002-8787-d2d5e880444f" />
+<img width="720" height="1604" alt="2350" src="https://github.com/user-attachments/assets/ce0eb8d7-7cbc-4dac-8ff7-98bea4935b58" />
+<img width="720" height="1604" alt="2349" src="https://github.com/user-attachments/assets/51255de0-881e-4110-9abd-ec058bd379da" />
+<img width="720" height="1604" alt="2348" src="https://github.com/user-attachments/assets/ea3c7aae-7259-488d-a38d-d460115df623" />
+<img width="720" height="1604" alt="2347" src="https://github.com/user-attachments/assets/9eab8f43-5e93-43fa-aa81-faee76518991" />
+<img width="720" height="1604" alt="2346" src="https://github.com/user-attachments/assets/7eb7eb2b-9ba5-4071-beac-b33200df0021" />
